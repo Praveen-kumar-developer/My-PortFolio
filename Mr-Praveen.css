@@ -1,0 +1,369 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.sidebar {
+  position: absolute;
+  background-color: rgb(208, 197, 197);
+  height: 100vh;
+  transition: 0.3s ease-in;
+}
+
+.main {
+  /* background-color: yellow; */
+  height: 100vh;
+  width: 85vw;
+}
+
+.sidebar ul li {
+  list-style: none;
+  font-size: 26px;
+  padding: 15px 0;
+}
+.sidebar ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.sidebar ul li a:hover {
+  border-bottom: 2px solid black;
+  border-radius: 5px;
+}
+
+.sidebar nav {
+  padding: 25px;
+}
+
+.cont {
+  display: flex;
+}
+
+.infocont {
+  /* background-color: rgb(17, 17, 160); */
+  height: 58vh;
+  width: 80vw;
+  margin: 144px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.devpic img {
+  height: 58vh;
+}
+
+.devinfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 30px;
+}
+.hello {
+  font-size: 50px;
+}
+
+.name {
+  font-size: 55px;
+  font-weight: 700;
+  color: rgb(32, 113, 193);
+}
+
+.about {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+#element {
+  font-size: 35px;
+  font-weight: 600;
+  color: rgb(79, 18, 81);
+}
+
+.moreabout {
+  font-size: 15px;
+  margin-top: 17px;
+}
+
+.btns {
+  margin-top: 25px;
+}
+
+.btns button {
+  padding: 9px 14px;
+  border-radius: 22px;
+  color: white;
+  background-color: dodgerblue;
+  font-weight: bold;
+  font-size: 21px;
+  margin: 0 3px;
+  cursor: pointer;
+}
+.btns button:hover {
+  color: dodgerblue;
+  background-color: white;
+}
+
+.socielLinks {
+  margin: -75px 0 0 85px;
+}
+.socielLinks a img {
+  height: 40px;
+  width: 40px;
+}
+
+.linked {
+  display: inline-block;
+}
+
+/* contect form.................... */
+
+.contectheading {
+  transform: translate(360px);
+  display: inline-block;
+  font-size: 27px;
+  padding: 50px 0 50px 0;
+}
+
+.contect {
+  font-weight: 600;
+}
+
+.contectCont {
+  display: flex;
+  justify-content: space-around;
+  line-height: 2;
+}
+input {
+  border: none;
+}
+
+.notes {
+  font-weight: 600;
+}
+
+.notes input {
+  border-bottom: 2px solid black;
+}
+
+.sendbtn {
+  font-size: 16px;
+  padding: 2px 103px 2px 108px;
+  border-radius: 10px;
+  background-color: dodgerblue;
+  transform: translate(380px, 37px);
+}
+
+.sendbtn:hover {
+  background-color: white;
+  color: dodgerblue;
+}
+
+.blogcont h1 {
+  border-bottom: 2px solid black;
+  margin: 25px 0 25px 325px;
+  display: inline-block;
+}
+
+.blogitem h2 {
+  margin: 8px 20px 8px 20px;
+}
+
+.blogitem p {
+  margin: 5px 20px 5px 20px;
+  color: rgba(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0), 0.1);
+}
+
+.blogbtn {
+  padding: 9px 14px;
+  border-radius: 22px;
+  color: white;
+  background-color: dodgerblue;
+  font-weight: bold;
+  font-size: 9px;
+  margin: 0 20px;
+  cursor: pointer;
+}
+.blogbtn:hover {
+  background-color: white;
+  color: dodgerblue;
+}
+
+/* intro----------------------- */
+
+.intro h2 {
+  padding: 50px 0 0 60px;
+}
+
+.intro a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+  padding-left: 60px;
+}
+
+.intro p {
+  padding: 50px 0 0 60px;
+  font-weight: 600;
+}
+.skillcont {
+  padding: 50px 0 0 60px;
+}
+
+.skillitem {
+  display: flex;
+  align-items: center;
+}
+
+.skill {
+  height: 9px;
+  width: 300px;
+  background-color: red;
+  border-radius: 12px;
+  border: none;
+}
+
+.hundred {
+  background-color: rgb(235, 136, 136);
+  width: 280px;
+}
+
+.seventy {
+  background-color: rgb(123, 123, 231);
+  width: 200px;
+}
+
+.fourty {
+  background-color: #e6e16c;
+  width: 120px;
+}
+.projectcont a {
+  text-decoration: none;
+}
+
+.projects img {
+  height: 35vh;
+  width: 30vw;
+  transform: translate(65vh);
+}
+
+/* services container------------ */
+
+.servicesHeading {
+  display: inline-block;
+  margin-top: 70px;
+  font-size: 35px;
+  justify-content: center;
+  display: flex;
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+}
+
+.options {
+  height: 160px;
+  width: 240px;
+  margin-top: 70px;
+  border: 1px solid black;
+  cursor: pointer;
+  box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.5),
+    inset 10px 10px 15px rgba(70, 70, 70, 0.12);
+}
+
+.options img {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  left: 102px;
+  margin-top: 5px;
+}
+.options h3 {
+  padding-left: 50px;
+}
+
+.options p {
+  font-size: 11px;
+  padding: 12px;
+}
+
+.options:hover {
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+/* ----------------------------------- */
+
+.icons {
+  width: 23px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.cross {
+  margin-left: 130px;
+}
+
+.sidebargo {
+  transform: translate(-440px, 0);
+  position: absolute;
+}
+
+@media (max-width: 640px) {
+  .devpic img {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .services {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .servicesHeading {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .blogcont h1 {
+    margin-left: 5rem;
+  }
+
+  .contectCont {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contect {
+    margin: 50px 0px 0px 50px;
+  }
+  .contectheading {
+    transform: translate(138px, 0px);
+  }
+
+  .notes {
+    margin: 50px 0px 0px 0px;
+  }
+  .sendbtn {
+    transform: translate(40px, 37px);
+  }
+  .socielLinks {
+    position: relative;
+    top: 233px;
+    right: 46px;
+  }
+}
+
+@media (max-width: 375px) {
+  .notes {
+    margin-left: 50px;
+  }
+}
+
